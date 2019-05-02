@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47218167829\\Documents\\MVC\\Tarefas\\Tarefas.csproj",
+      "projectUniqueName": "c:\\Users\\47218167829\\Documents\\MVC\\MVC\\Tarefas\\Tarefas.csproj",
       "projectName": "Tarefas",
-      "projectPath": "C:\\Users\\47218167829\\Documents\\MVC\\Tarefas\\Tarefas.csproj",
+      "projectPath": "c:\\Users\\47218167829\\Documents\\MVC\\MVC\\Tarefas\\Tarefas.csproj",
       "packagesPath": "C:\\Users\\47218167829\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47218167829\\Documents\\MVC\\Tarefas\\obj\\",
+      "outputPath": "c:\\Users\\47218167829\\Documents\\MVC\\MVC\\Tarefas\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

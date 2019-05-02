@@ -77,7 +77,7 @@ namespace Senai.PastelStore.MVC.ViewController {
             Console.WriteLine ("Digite sua Senha:");
             senha = Console.ReadLine ();
 
-            UsuarioViewModel usuarioRetornado = usuarioRepositorio.BuscarUsuario (email, senha);
+            UsuarioViewModel usuarioRetornado = usuarioRepositorio.BuscarUsuario(email,senha);
 
             if (usuarioRetornado != null) {
                 return usuarioRetornado;
@@ -85,6 +85,7 @@ namespace Senai.PastelStore.MVC.ViewController {
                 Console.WriteLine ($"Usuario ou senha Inválido");
                 return null;
             }
-        } //fim efetuar login
+        }
     }
-}
+}//fim efetuar login
+
