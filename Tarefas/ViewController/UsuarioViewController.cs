@@ -79,10 +79,12 @@ namespace Tarefas.ViewController
             
              UsuarioViewModel usuarioRetornado = usuarioRepositorio.BuscarUsuario(email,senha);
 
-            // if(usuarioRetornado != null){
-            //     return usuarioRetornado;
-            // }else{
-            //     Console.WriteLine($"Usuario ou senha Inválido");
-            //     return null;
+             if(usuarioRetornado != null){
+                 return usuarioRetornado;
+             }else{
+                 Console.WriteLine($"Usuario ou senha Inválido");
+                 return null;
             }
         }//fim efetuar login
+    }
+}
